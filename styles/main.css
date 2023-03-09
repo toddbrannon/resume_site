@@ -61,6 +61,15 @@ li{
     padding-bottom: 1em;
 }
 
+.video-link {
+    padding-top: 1em;
+    text-align: center;
+}
+
+.copyright {
+    text-align: center;
+}
+
 #wrapper--hero{
     display: flex;
     align-items: center;
@@ -81,6 +90,18 @@ li{
     height: 150px;
     object-fit: cover;
     border-radius: 50%;
+}
+
+.project-images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-images img {
+    display: inline-block;
+    width: 275px;
+    height: 150px;
+    padding: 2px;
 }
 
 #email{
@@ -174,6 +195,10 @@ li{
     #profile-pic{
         width: 200px;
         height: 200px;
+    }
+
+    .project-images {
+        display: block;
     }
 
     #wrapper--hero{

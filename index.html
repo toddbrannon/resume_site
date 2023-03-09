@@ -184,21 +184,76 @@
         <section class="section--page">
             <h2>Projects & Accomplishments</h2>
 
-            <div class="card--project">
+            <!-- <div class="card--project">
                 <a href="project1.html"><span>🏆 </span>Built an Estate Sale Manager app for an estate sale liquidator</a>
-            </div>
+            </div> -->
 
-            <div class="card--project">
+            <!-- <div class="card--project">
                 <a href="project2.html" ><span>🏆 </span>Built an Order Management system for a gaging, inspection, and metrology company</a>
+            </div> -->
+
+            <div class="card--project">
+                <a href="project3.html" ><span>🏆 </span>Built a custom Excel spreadsheet report and Access database for private investment and advisory services firm</a>
+                <ul>
+                    <li>Automation of raw file processing using Python, Power Query, and VBA</li>
+                    <li>Final report output accomplished using SQL queries to the database, complex formulas, conditional formatting, and VBA to run the process</li>
+                </ul>
+                <div class="project-images">
+                    <img src="./assets/images/LCR_DB_1.PNG" >
+                    <img src="./assets/images/LCR_DB_2.PNG" >
+                    <img src="./assets/images/LCR_DB_3.PNG" >
+                </div>
+                <div class="video-link">
+                    <span style="font-size: 1.5em">📺 </span><a href="https://www.youtube.com/watch?v=F3YP_dx8JdM" target="_blank">Watch video here</a><span style="font-size: 1.5em"> 📺</span>
+                </div>
+                
             </div>
 
             <div class="card--project">
-                <a href="project3.html" ><span>🏆 </span>Custom Excel Spreadsheet and Access database for private investment and advisory services firm</a>
+                <a href="project4.html" ><span>🏆 </span>Developed a web app to store prospects/leads with full CRUD features</a>
+                <ul>
+                    <li>Developed the REST API using Express JS</li>
+                    <li>Data stored to MongoDB</li>
+                    <li>EJS templating language to render the application using Bootstrap to make it mobile responsive</li>
+                    <li>Include user authentication</li>
+                </ul>
+                <div class="project-images">
+                    <img src="./assets/images/Notify1.png" >
+                    <img src="./assets/images/Notify2.png" >
+                    <img src="./assets/images/Notify3.png" >
+                </div>
+                <div class="video-link">
+                    <span style="font-size: 1.5em">📺 </span><a href="https://www.youtube.com/watch?v=gt0YvoigoZ8" target="_blank">Watch video here</a><span style="font-size: 1.5em"> 📺</span>
+                </div>
+            </div>
+
+            <div class="card--project">
+                <a href="project5.html" ><span>🏆 </span>Built a custom client intake tool in Microsoft Excel</a>
+                <ul>
+                    <li>Created a dependent dropdown using Data Validation</li>
+                    <li>Formulas added for dynamic calculations and passing values from one spreadsheet to another</li>
+                    <li>Used VBA to program the feature to save forms as PDF and attach to Outlook email</li>
+                </ul>
+                <div class="project-images">
+                    <img src="./assets/images/NutritionForm2.PNG" >
+                    <img src="./assets/images/NutritionForm3.PNG" >
+                    <img src="./assets/images/NutritionForm4.PNG" >
+                </div>
+                <div class="video-link">
+                    <span style="font-size: 1.5em">📺 </span><a href="https://www.youtube.com/watch?v=JKkRVDthL0M" target="_blank">Watch video here</a><span style="font-size: 1.5em"> 📺</span>
+                </div>
             </div>
 
         </section>
-
-    </div>
-    
+        <section class="section--page">
+            <div class="copyright">
+                <p>© Todd Brannon <span id="year"></span>. All Rights Reserved. </p>
+            </div> 
+        </section>
+    </div>      
+<script>
+    var date = new Date().getFullYear();
+    document.getElementById("year").innerHTML = date;
+</script>
 </body>
 </html>
